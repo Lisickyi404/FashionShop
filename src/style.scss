@@ -1,0 +1,156 @@
+.Item{
+    
+    .buttonActive{
+        background-color: darkmagenta;
+    }
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .mainImg{
+    margin-left: -9px;
+    }
+    
+    .itemAbout{
+        display: flex;
+        float: left;
+        
+        span{
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 16px;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 14px;
+        }
+
+
+        .itemButtons{
+            img{
+                margin-left: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    button{
+        padding: 0;
+        width: 149.28px;
+        height: 37px;
+        cursor: pointer;
+        border: 0.5px solid #514A7E
+    }
+}
+.ItemList{
+    /* position: absolute;*/
+        margin-top:190px;
+        margin-left:4px;
+        display: grid;
+        grid-template-columns: 425px 425px 425px;
+        grid-template-rows: 550px 550px 550px;
+}
+.mainPage{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.wrapper{
+    margin-left: 10%;
+    main{
+    
+
+        .active{
+            font-size: 28px;
+            color:#514A7E;
+            line-height: 29px;
+            font-weight: 400;
+        }
+        .noactiv{
+            color:#7D7D7D;
+        }
+        display: flex;
+        .intro{
+            padding: 0;
+            margin-top: 67px;
+            width:449px;
+            height:24px;
+            color: #121212;
+            font-weight: 300;
+            font-size: 40px;    
+        }
+    
+    
+    
+    .Catalog{
+        .LoadNewPage{
+            width: 150px;
+            height: 38px;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+        
+        }
+    .Sort{
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        top:0px;
+        width: 100%;
+        background-color:  #FFFDF5;
+        .SortBy{
+        
+            display: flex;
+        
+    
+            ul{
+                display: flex;
+    
+                li{
+                    list-style: none;
+                    margin-left: 35px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;
+                    cursor: pointer;
+    
+                }
+            }}
+    
+            .ItemType{
+            display: flex;
+            top:40px;
+    
+            ul{
+                display: flex;
+    
+                li{
+                    list-style: none;
+                    margin-left: 35px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;
+                    span{
+                        cursor: pointer;
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+
+    
+
+    
+    
+    
+    
+
+        }
+    }
+    }

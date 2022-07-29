@@ -1,0 +1,144 @@
+.buttons{
+    display: flex;
+    margin-top: 0px;
+    .logAc{
+        width: 148px;
+        height: 37px;
+        background: #514A7E;
+        border: 0.5px solid #514A7E;
+        cursor: pointer;
+        color:#FFFDF5;
+    }
+    .rgistr{
+        margin-left: 100px;
+    }
+}
+.hide{
+    display: none;
+}
+.LoginForm{
+    width: 20%;
+    height: 10px;
+    position: absolute;
+    left:40%;
+    top:25%;
+    
+
+    form{
+    
+        display: flex;
+        flex-direction: column;
+
+        input{
+            input:focus::-webkit-input-placeholder { color:transparent; }
+            font-size: 40px;
+            color: #7D7D7D;
+
+            margin-top: 60px;
+            width: 372px;
+            height: 43px;
+            border: 1px;
+        }
+    }
+
+    span{
+        font-size: 40px;
+        font-style: normal;
+        line-height: 87%;
+    }
+    
+ 
+
+}
+
+.RegistrForm{
+    width:fit-content;
+    height:fit-content;
+    position: absolute;
+    left: 30%;
+    top:25%;
+    
+    span{
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 87.3%;
+    }
+
+    .dataList{
+        display: flex;
+        flex-wrap:wrap;
+        width: 1200px;
+        height: 1000px;
+        
+        input{
+            input:focus::-webkit-input-placeholder { color:transparent; }
+            background: transparent;
+            outline: none;
+            font-size: 28px;
+            background-color:  #FFFDF5;
+            color: #7D7D7D;
+            margin-top: 60px;
+            width: 372px;
+            height: 43px;
+            border: 1px;
+            margin-left: 100px;
+            border-bottom-width: 1px;
+            border-bottom-style:solid;
+        }
+        .transfer{
+            form{
+                
+                display: flex;
+                margin: 0 -40px 64px;
+                label{
+                    width:200px;
+                    height:120px;
+                    cursor: pointer;
+                    margin: 0 40px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    h4{
+                        margin: 0;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 35px;
+                        color: #514A7E;
+                        width:fit-content;
+                    height:fit-content;
+                    }
+                    p{
+                        margin: 0;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 18px;
+                        margin:0;
+                        color: #7D7D7D;
+                    }
+                    .kaka{
+                        width:90px;
+                        height:40px;
+                        display: flex;
+                        align-items: baseline;
+                        input{
+                            width:fit-content;
+                            height:fit-content;
+                            margin: 0;
+                        }
+                    
+                    }
+                }
+                label:hover{
+                    box-sizing: content-box;
+                    background-color: #cbb5b5;
+                    border-radius: 10%;
+                }
+            }
+            
+        }
+    }
+
+   
+
+
+}

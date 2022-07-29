@@ -1,0 +1,151 @@
+.Basket{
+    margin-top: 69px;
+    
+    select{
+        border: 1px solid #ced4da;
+        cursor: pointer;
+        font-size: 24px;
+        width: 79px;
+        height: 32px;
+        z-index: 2;
+        background: #fff;
+        user-select: none;
+        margin-left: 23px;
+        margin-right: 23px;
+    
+    }
+
+    .bookingInfo{
+        display: flex;
+
+        span{
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 118%;
+            /* or 47px */
+
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            margin-right: 57px;
+
+            color: #514A7E;
+        }
+        h4{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 118%;
+            /* or 24px */
+
+            display: flex;
+            align-items: center;
+
+            color: #121212;
+        }
+        p{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 118%;
+            /* or 17px */
+
+            display: flex;
+            align-items: center;
+
+            color: #7D7D7D;
+        }
+    }
+    .BasketHeader{
+        display: flex;
+        align-items: center;
+
+        p{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 87.3%;
+            color: #121212;
+            margin-left: 50px;
+        }
+
+        img{
+            margin-left: 16px;
+        }
+        h4{
+
+        }
+
+    }
+
+    button{
+        box-sizing: border-box;
+        width: 149.28px;
+        height: 37px;
+        left: 135px;
+        top: 732px;
+        color:white;
+        cursor: pointer;
+
+        background: #514A7E;
+        border: 0.5px solid #514A7E;
+    }
+
+
+    .BasketList{
+        .ItemDel{
+            background-color: #d6e3e5b9;
+        }
+        .BasketItem{
+            display: flex;
+            align-items: center;
+            width: 1020px;
+            border: #121212 2px solid;
+            span{
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 118%;
+                /* or 47px */
+
+                display: flex;
+                align-items: center;
+
+color: #514A7E;
+            }
+            .buttons{
+                font-size:34px;
+                margin: 0;
+                padding: 0;
+                cursor: pointer;
+            }
+
+            .cout{
+                font-size:29px;
+                margin: 0;
+                padding: 0;
+            }
+
+            .flexing{
+
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: stretch;
+                justify-content: space-around;
+                align-items: center;
+
+                display: flex;
+                align-items: center;
+            
+            }
+            .BasketItemAbout{
+                margin-left: 50px;
+                width: 324px;
+            }
+
+
+
+            .ProductInfo{
+                margin-left: 256px ;
+            }
+        }
+    }
+}
